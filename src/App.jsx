@@ -8,6 +8,10 @@ function App() {
     set_number(number+1)
   }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9a94c8688075a22858deebae1d6e5b6c5504fb96
   const decrement=()=>{
     if(number>0) set_number(number-1)
   }
@@ -16,6 +20,7 @@ function App() {
     set_number(0)
   }
 
+<<<<<<< HEAD
   
   return (
     <>
@@ -34,6 +39,21 @@ function App() {
 
        </div>
     </>
+=======
+  return (
+    
+    <div>
+      <h1>COUNTER APP</h1>
+      <br></br>
+      {number}
+      <br></br>
+      <button onClick={increment}>+</button>
+      <button onClick={decrement}>-</button>
+      <button onClick={reset}>RESET</button>
+    </div> 
+    
+    
+>>>>>>> 9a94c8688075a22858deebae1d6e5b6c5504fb96
   )
 }
 
