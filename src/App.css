@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+#root {
+  max-width: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: x-large;
+  background-color: #E78AD4;
+  opacity: 98%;
+  border-radius: 7rem;
+  font-family: "Silkscreen";
+  color: black;
+}
+
+.count {
+  font-size: 4rem;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/736x/87/09/b8/8709b8943a053e736e678a5c6b3a83e2.jpg);
+  opacity: 80%;
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
