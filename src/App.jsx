@@ -8,10 +8,6 @@ function App() {
     set_number(number+1)
   }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 9a94c8688075a22858deebae1d6e5b6c5504fb96
   const decrement=()=>{
     if(number>0) set_number(number-1)
   }
@@ -20,7 +16,6 @@ function App() {
     set_number(0)
   }
 
-<<<<<<< HEAD
   
   return (
     <>
@@ -39,7 +34,7 @@ function App() {
 
        </div>
     </>
-=======
+
   return (
     
     <div>
@@ -53,7 +48,7 @@ function App() {
     </div> 
     
     
->>>>>>> 9a94c8688075a22858deebae1d6e5b6c5504fb96
+
   )
 }
 
